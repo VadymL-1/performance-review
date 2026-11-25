@@ -7,5 +7,5 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     exit;
 }
 
-$data = file_get_contents(__DIR__ . '/performance_review.json');
+$data = file_get_contents(__DIR__ . '/performance-review.json');
 echo $data;
